@@ -7,9 +7,7 @@
 		<artifactId>taotao-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>com.taotao</groupId>
 	<artifactId>taotao-manager-web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<dependencies>
@@ -103,9 +101,9 @@
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 		</dependency>
-		<!-- FastDFS客户端 -->
+		<!-- 添加FastDFS客户端的引用 -->
 		<dependency>
-			<groupId>fastdfs_client</groupId>
+			<groupId>fastdfs_client</groupId>s
 			<artifactId>fastdfs_client</artifactId>
 			<version>1.25</version>
 		</dependency>
@@ -118,7 +116,6 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
 		</dependency>
 		<!-- 日志处理 -->
 		<dependency>
